@@ -23,7 +23,7 @@ class RebalanceFrequency(Enum):
 
 # default date range for simulation
 DEFAULT_START_DATE = datetime(2000, 1, 1)
-DEFAULT_END_DATE = date(2025, 6, 31)
+DEFAULT_END_DATE = datetime(2025, 6, 31)
 
 # default portfolio settings
 DEFAULT_INTIAL_INVESTMENT = 10000
